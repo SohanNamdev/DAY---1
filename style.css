@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 12vh;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;
+
+}
+/* nav:hover #nav-btm{
+    background-color: red;
+    height: 150%;
+    bottom: -150%;
+    background-color: #111111;
+} */
+.div2{
+    display: flex;
+    gap: 2vw;
+    align-items: flex-start;
+    padding: 1vh 0;
+    position: relative;
+    z-index: 10;
+}
+.div2 h4{
+    font-size:0.8vw;
+    font-weight: 600;
+   margin-bottom: 2.6vw;
+    text-transform: uppercase;
+}
+.div2 h5{
+    margin-bottom: 0vw;
+    /* opacity: 0; */
+    display: none;
+    overflow: hidden;
+}
+.div2 h5 span{
+    font-size: 0.77;
+    font-weight: 400;
+    margin-bottom: 1vw;
+    display: inline-block;
+}
+#nav-btm{
+    height: 0vh;
+    z-index: 9;
+    width: 79%;
+    position: absolute;
+    top: 100%;
+    background-color: #111;
+    border-bottom: 1px solid #dadadada;
+}
+.bottom-div h5{
+    margin-bottom: 0.4vw;
+    overflow: hidden;  
+}
+.bottom-div{
+    margin-top: 2vw;
+}
+.bottom-div h5 span{
+    font-size: 0.7;
+    font-weight: 500;
+    display: inline-block;
+    opacity: 0;
+    
+}
+nav button{
+    background-color: #0BA34E;
+    display: flex;
+    align-items: center;
+    padding: 12px 14px;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.85vw;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+nav button svg{
+    height: 0.85vw;
+    margin-left:1.6vw;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+#page1 h1{
+    font-size: 8.5vw;
+    font-weight: 800;
+    line-height: 8.5vw;
+}
+#page1 h1 svg{
+    height: 6vw;
+    width: 6vw;
+    background-color: #0BA34E;
+    border-radius: 50%;
+}
+#page1 p{
+    text-align: center;
+    margin-top: 3vh;
+    font-weight: 400;
+}
+#digital{
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    margin-top: 1vh;
+}
+#digital h4{
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+#digital h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+}
+#moving-div{
+    background-color: red;
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 3%;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
